@@ -39,6 +39,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               SizedBox(
                 height: 48.0,
               ),
+              
               TextField(
                 keyboardType: TextInputType.emailAddress,
                 textAlign: TextAlign.center,

@@ -55,9 +55,9 @@ animation = ColorTween(begin: Colors.grey ,end: Colors.white).animate(controller
                     height: 60.0,
                   ),
                 ),
-                TypewriterAnimatedTextKit(
-                  text: ['Fire Chat'],
-                  textStyle: TextStyle(
+                Text(
+                  'Fire Chat',
+                  style: TextStyle(
                     color: Colors.black,
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
